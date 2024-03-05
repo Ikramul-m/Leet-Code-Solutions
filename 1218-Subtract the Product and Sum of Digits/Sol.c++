@@ -8,8 +8,8 @@ public:
         for(;n!=0;)
         {
             int r = n%10;
-            pro = pro * r;
-            sum = sum + r;
+            pro = pro * r; // Product of Digits
+            sum = sum + r; // Sum of Digits
             n = n/10;
         } 
 
